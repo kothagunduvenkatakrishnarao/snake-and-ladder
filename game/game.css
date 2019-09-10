@@ -1,0 +1,100 @@
+#turn{
+    left:5%;
+    top:10%;
+    font-size: 30px;
+    color: black;
+    border:3px solid black;
+    background-color: aqua;
+    position: absolute;
+}
+body{
+    background-image:url(photos/snake.jpg);
+    background-size:cover;
+}
+#demo{
+    font-weight: bold;
+    visibility: hidden;
+    background: aqua;   
+    padding: 5px 5px;
+    position: absolute;
+    font-size: 40px;
+    border:5px solid black;
+    width:5%;
+    height:8%;
+}
+#im{
+    position: absolute;
+    width:20%;
+    left:40%;
+    top:30%;
+}
+#sl{
+    position: absolute;
+    width:40%;
+    left:30%;
+    bottom: 55%;
+}
+#hide{
+    background-color: blue;
+    width:30%;
+    left:35%;
+    height: 20%;
+    top:40%;
+    border:3px solid  yellow;
+    font-size: 50px;
+    border-radius: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    z-index:10;
+}
+#boxs{
+    padding-left: 300px;
+    padding-top: 60px;
+    position: fixed;
+}
+
+#dice{
+    left: 900px;
+    top: 100px;
+    position: fixed;
+    visibility: hidden;
+}
+#demo{
+    left: 920px;
+    top: 200px;
+    position: fixed;
+}
+#snake1{
+    position: absolute;
+    left : 400px;
+    top:190px;
+    z-index: 200;
+    visibility: hidden;
+}
+#snake2{
+    position: absolute;
+    left : 590px;
+    top:90px;
+    z-index: 200;
+    visibility: hidden;
+}
+#ladder1{
+    position: absolute;
+    left : 380px;
+    width: 60px;
+    height: 320px;
+    top:170px;
+    z-index: 200;
+    visibility: hidden;
+}
+#ladder2{
+    position: absolute;
+    left : 570px;
+    width: 50px;
+    height: 250px;
+    top:90px;
+    z-index: 200;
+    visibility: hidden;
+}
